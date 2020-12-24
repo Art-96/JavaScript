@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="..\Myimg\jsico.ico"/>
+</head>
+<body>
+    <h2>The first JavaScript program</h2>
+    <script src="../testJavaScript/js/myscript.js"></script>
+    <script>
+        var a = 5 + 8; // объявляется переменная
+        console.log('Operation result');
+        console.log(a); // выводится значение переменной в консол
+    </script>
+    <script>
+        var a = 5 + 8;
+        document.write('Operation result');
+        document.write(a); // пишет информацию на веб-страницу
+    </script>
+    <script>
+        var strSum = prompt("Введите сумму вклада", 1000);
+        var strPercent = prompt("Введите процентную ставку", 10);
+        var sum = parseInt(strSum);
+        var procent = parseInt(strPercent);
+        sum = sum + sum * procent / 100;
+        alert("После начисления процентов сумма вклада составит: " + sum);
+    </script> <br>
+    <script>
+        function display(){
+            document.write("функция в JavaScript");
+        }
+        display();
+    </script>
+    <script crs="..\JSscript\myscript.js"></script>
+</body>
+</html>
