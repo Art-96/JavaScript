@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Date</title>
+</head>
+<body>
+
+    <script type="text/javascript" language="JavaScript">
+        var now = new Date(); // ������ Date � ������� ����� � ��������.
+        document.write("<strong>������� ����= </strong>" + now + "<br />");
+
+        var now = new Date(5000); // �������� - ���������� ����������� ����� ������ ����� � �������� 1 ������ 1970
+        document.write("<strong>date1 = </strong>" + now + "<br />");
+        
+        var date = new Date("December 25, 1995 21:46:10");
+        document.write("<strong>date2 = </strong>" + date + "<br />");
+
+        var date2 = new Date("03/09/2000"); // ������� 9 ����� 2000 ����
+        document.write("<strong>date3 = </strong>" + date2 + "<br />");
+
+        // Date(���, �����, ����, ����, ������, �������, ��)
+        var date3 = new Date(2000, 2, 9); // ������� 9 ����� 2000 ����
+        document.write("<strong>date4 = </strong>" + date3 + "<br />");
+    </script>
+
+</body>
+</html>
